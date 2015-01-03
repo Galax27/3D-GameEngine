@@ -1,0 +1,24 @@
+ ----------
+|V-15.01.01|
+ ----------
+[Project - updated]
+
+
+ ----------
+|V-15.01.02|
+ ----------
+-Added function 'interaction(Player)' to class Surface
+
+-Changed player interaction with all surfaces
+-Changed player function 'draw(void)' simmilar to surfaces
+
+-Removed class Ground & Wall, merged together to form class Surface
+-Removed movement checks from class Player
+
+
+ ----------
+|V-15.01.03|
+ ----------
+-Added 'jump' capabilities
+ 
+-Changed player speed to be stored in variable, rather than random double
