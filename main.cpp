@@ -535,22 +535,6 @@ class gameEngine
 			{ player->SetZ(player->GetZ() + player->GetzS()); index-=0.05; }
 			else
 			{player->SetZ(player->GetZ() - player->GetzS());}
-			/*if(keys[playerKeys->keyUp()])
-			{
-				double x = sin(ang * 180 / 3.14) / 200, y = cos(ang * 180 / 3.14) / 200;
-				if(0 <= ang && ang < 1.57) { moveX(-y); moveY(-x); }
-				if(1.57 <= ang && ang < 3.14) { moveX(y); moveY(-x); }
-				if(3.14 <= ang && ang < 4.71) { moveX(y); moveY(x); }
-				if(4.71 <= ang && ang < 6.28) { moveX(-y); moveY(-x); }
-			}
-			/*if(keys[playerKeys->keyLeft()])
-			{
-				if(ang < 0) { ang = 6.278; } else { ang -= 0.002; }
-			}
-			if(keys[playerKeys->keyRight()])
-			{
-				if(ang > 6.28) { ang = 0; } else { ang += 0.002; }
-			}*/
 		}
 	public:
 		gameEngine()
