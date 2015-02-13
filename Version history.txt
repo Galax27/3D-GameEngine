@@ -22,3 +22,11 @@
 -Added 'jump' capabilities
  
 -Changed player speed to be stored in variable, rather than random double
+
+
+ ----------
+|V-15.02.13|
+ ----------
+ -Removed 'jump' capabilities
+ 
+ -Rewrited classes in individual files and headers
